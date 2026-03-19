@@ -3,5 +3,9 @@ name = "rust-fundamentals"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "file_size_formatter"
+path = "src/file_size_formatter.rs"
+
 [dependencies]
 rand = "0.10.0"

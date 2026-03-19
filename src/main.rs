@@ -1,13 +1,16 @@
 mod binary_search;
 mod control_flow;
+mod enums_and_variants;
 mod generate_array;
 mod hashmap;
 mod loops;
-mod structs;
 pub mod return_values;
+mod string_man;
+mod structs;
 mod variable_assignment;
-pub mod variable_shadowing;
 pub mod variable_ownership;
+pub mod variable_shadowing;
+mod vectors_and_slices;
 fn main() {
     println!("tests");
     binary_search::binary_search();
