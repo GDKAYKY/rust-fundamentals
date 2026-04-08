@@ -12,7 +12,7 @@ pub mod variable_ownership;
 pub mod variable_shadowing;
 mod vectors_and_slices;
 fn main() {
-    println!("tests");
-    binary_search::binary_search();
-    loops::while_loop();
+    let mut y = "mama";
+    let mut x = 5;
+    println!("x is {} and {} is y", x, y)
 }

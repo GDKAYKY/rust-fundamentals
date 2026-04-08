@@ -20,7 +20,7 @@ fn main() {
     let result = divide(10.0, 2.0);
 
     // Match forces us to consider both success and error cases
-    match result {
+    match result{
         // If we get an Ok(value), extract the value inside
         Ok(value) => println!("Result: {}", value),
         // If we get an Err(error), handle the error case

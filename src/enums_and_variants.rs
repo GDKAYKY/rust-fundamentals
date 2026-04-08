@@ -114,8 +114,8 @@ fn calculate_operation(op: &Operation) -> i32 {
         Operation::Subtract(a, b) => a - b,
         Operation::Multiply(a, b) => a * b,
         Operation::Divide(a, b) => {
-            if b != 0 {
-                a / b
+            if *b != 0 {
+                *a / *b
             } else {
                 println!("Cannot divide by zero!");
                 0

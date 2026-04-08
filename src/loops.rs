@@ -43,7 +43,7 @@ pub fn config(){
 pub fn undefined_loop() {
     let  messages:i32= random::<i32>() % 15;
 
-    loop { // This is an infinite loop and will continue until we break out of it
+    loop { // This is an infinite loop and, will continue until we break out of it
         if messages >= 10{
             print!("too many messages");
             break;
